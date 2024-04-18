@@ -1,0 +1,28 @@
+:root {
+  /* #ff9301 */
+  --color-accent: 255, 147, 1;
+  --color-accent-faded: 255, 223, 183;
+  /* #0b0b15 */
+  --color-headings: 11, 11, 21;
+  /* #555555 */
+  --color-text: 85, 85, 85;
+  /* #bbbbbb */
+  --color-borders: 187, 187, 187;
+  /* #eeeeee */
+  --color-separators: 238, 238, 238;
+  /* #ffffff */
+  --color-background-default: 255, 255, 255;
+  /* #f7f7ff */
+  --color-background-alternate: 247, 247, 255;
+
+  --spacing-base: 1em;
+  --spacing-double: calc(var(--spacing-base) * 2);
+  --spacing-layout: 4vw;
+
+  --font-family-sans-serif: "Roboto", sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-bold: 900;
+
+  --border-radius-base: 0.3em;
+  --border-radius-double: calc(var(--border-radius-base) * 2);
+}
